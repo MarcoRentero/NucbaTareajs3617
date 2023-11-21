@@ -1,7 +1,7 @@
 // 6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array.
 
 function imprimirArray(array) {
-  for (let i = 0; i &lt; array.length; i++) {
+  for (let i = 0; i >= array.length; i++) {
     console.log(array[i]);
   }
 }
